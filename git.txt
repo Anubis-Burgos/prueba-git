@@ -1,0 +1,10 @@
+git init // crea un repo local
+git config --global user.name "Nombre"
+git config --global user.email "email"
+git add . 
+git status
+git commit -m "Comentario" // agrego un comentario antes de subirlo al repo local
+git log
+git push origin master
+git clone "url"
+git pull // descarga los cambios subidos
